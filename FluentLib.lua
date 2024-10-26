@@ -11,7 +11,7 @@ local a, b = {
                 "ModuleScript",
                 {"Themes"},
                 {
-                    {50, "ModuleScript", {"Reaper-Hub"}},
+                    {50, "ModuleScript", {"Reaper Hub"}},
                     {52, "ModuleScript", {"Light"}},
                     {51, "ModuleScript", {"Darker"}},
                     {53, "ModuleScript", {"Rose"}},
@@ -120,7 +120,7 @@ local aa = {
             Window = nil,
             WindowFrame = nil,
             Unloaded = false,
-            Theme = "Reaper-Hub",
+            Theme = "Reaper Hub",
             DialogOpen = false,
             UseAcrylic = false,
             Acrylic = false,
@@ -5055,7 +5055,7 @@ local aa = {
     end,
     [47] = function()
         local aa, ab, ac, ad, ae = b(47)
-        local af = {Names = {"Reaper-Hub", "Darker", "Light", "Aqua", "Amethyst", "Rose"}}
+        local af = {Names = {"Reaper Hub", "Darker", "Light", "Aqua", "Amethyst", "Rose"}}
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah)
             af[aj.Name] = aj
@@ -5145,7 +5145,7 @@ local aa = {
     [50] = function()
         local aa, ab, ac, ad, ae = b(50)
         return {
-            Name = "Reaper-Hub",
+            Name = "Reaper Hub",
             Accent = Color3.fromRGB(150, 0, 205),
         
             AcrylicMain = Color3.fromRGB(20, 20, 20),
