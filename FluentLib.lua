@@ -5147,8 +5147,8 @@ local aa = {
         return {
             Name = "Reaper Hub",
             Accent = Color3.fromRGB(150, 0, 205),
-            AcrylicMain = Color3.fromRGB(20, 20, 20),
-            AcrylicBorder = Color3.fromRGB(40, 40, 40),
+            AcrylicMain = Color3.fromRGB(0, 0, 0),
+            AcrylicBorder = Color3.fromRGB(20, 20, 20),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(30, 30, 30), Color3.fromRGB(10, 10, 10)),
             AcrylicNoise = 0.8,
             TitleBarLine = Color3.fromRGB(90, 90, 90),
