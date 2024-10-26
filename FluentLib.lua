@@ -1,95 +1,97 @@
+
 local a, b = {
+{
+    1,
+    "ModuleScript",
+    {"MainModule"},
     {
-        1,
-        "ModuleScript",
-        {"MainModule"},
+        {18, "ModuleScript", {"Creator"}},
+        {28, "ModuleScript", {"Icons"}},
         {
-            {18, "ModuleScript", {"Creator"}},
-            {28, "ModuleScript", {"Icons"}},
+            47,
+            "ModuleScript",
+            {"Themes"},
             {
-                47,
-                "ModuleScript",
-                {"Themes"},
-                {
-                    {50, "ModuleScript", {"Reaper Hub"}},
-                    {52, "ModuleScript", {"Halloween"}},
-                }
-            },
+                {48, "ModuleScript", {"Reaper Hub"}},
+                {50, "ModuleScript", {"Dark Halloween"}},
+                {49, "ModuleScript", {"Light Halloween"}}
+            }
+        },
+        {
+            19,
+            "ModuleScript",
+            {"Elements"},
             {
-                19,
-                "ModuleScript",
-                {"Elements"},
-                {
-                    {21, "ModuleScript", {"Colorpicker"}},
-                    {27, "ModuleScript", {"Toggle"}},
-                    {23, "ModuleScript", {"Input"}},
-                    {20, "ModuleScript", {"Button"}},
-                    {25, "ModuleScript", {"Paragraph"}},
-                    {22, "ModuleScript", {"Dropdown"}},
-                    {26, "ModuleScript", {"Slider"}},
-                    {24, "ModuleScript", {"Keybind"}}
-                }
-            },
+                {21, "ModuleScript", {"Colorpicker"}},
+                {27, "ModuleScript", {"Toggle"}},
+                {23, "ModuleScript", {"Input"}},
+                {20, "ModuleScript", {"Button"}},
+                {25, "ModuleScript", {"Paragraph"}},
+                {22, "ModuleScript", {"Dropdown"}},
+                {26, "ModuleScript", {"Slider"}},
+                {24, "ModuleScript", {"Keybind"}}
+            }
+        },
+        {
+            29,
+            "Folder",
+            {"Packages"},
             {
-                29,
-                "Folder",
-                {"Packages"},
                 {
+                    30,
+                    "ModuleScript",
+                    {"Flipper"},
                     {
-                        30,
-                        "ModuleScript",
-                        {"Flipper"},
-                        {
-                            {33, "ModuleScript", {"GroupMotor"}},
-                            {46, "ModuleScript", {"isMotor.spec"}},
-                            {39, "ModuleScript", {"Signal"}},
-                            {40, "ModuleScript", {"Signal.spec"}},
-                            {45, "ModuleScript", {"isMotor"}},
-                            {36, "ModuleScript", {"Instant.spec"}},
-                            {44, "ModuleScript", {"Spring.spec"}},
-                            {42, "ModuleScript", {"SingleMotor.spec"}},
-                            {38, "ModuleScript", {"Linear.spec"}},
-                            {31, "ModuleScript", {"BaseMotor"}},
-                            {43, "ModuleScript", {"Spring"}},
-                            {35, "ModuleScript", {"Instant"}},
-                            {37, "ModuleScript", {"Linear"}},
-                            {41, "ModuleScript", {"SingleMotor"}},
-                            {34, "ModuleScript", {"GroupMotor.spec"}},
-                            {32, "ModuleScript", {"BaseMotor.spec"}}
-                        }
+                        {33, "ModuleScript", {"GroupMotor"}},
+                        {46, "ModuleScript", {"isMotor.spec"}},
+                        {39, "ModuleScript", {"Signal"}},
+                        {40, "ModuleScript", {"Signal.spec"}},
+                        {45, "ModuleScript", {"isMotor"}},
+                        {36, "ModuleScript", {"Instant.spec"}},
+                        {44, "ModuleScript", {"Spring.spec"}},
+                        {42, "ModuleScript", {"SingleMotor.spec"}},
+                        {38, "ModuleScript", {"Linear.spec"}},
+                        {31, "ModuleScript", {"BaseMotor"}},
+                        {43, "ModuleScript", {"Spring"}},
+                        {35, "ModuleScript", {"Instant"}},
+                        {37, "ModuleScript", {"Linear"}},
+                        {41, "ModuleScript", {"SingleMotor"}},
+                        {34, "ModuleScript", {"GroupMotor.spec"}},
+                        {32, "ModuleScript", {"BaseMotor.spec"}}
                     }
                 }
-            },
+            }
+        },
+        {
+            2,
+            "ModuleScript",
+            {"Acrylic"},
             {
-                2,
-                "ModuleScript",
-                {"Acrylic"},
-                {
-                    {3, "ModuleScript", {"AcrylicBlur"}},
-                    {5, "ModuleScript", {"CreateAcrylic"}},
-                    {6, "ModuleScript", {"Utils"}},
-                    {4, "ModuleScript", {"AcrylicPaint"}}
-                }
-            },
+                {3, "ModuleScript", {"AcrylicBlur"}},
+                {5, "ModuleScript", {"CreateAcrylic"}},
+                {6, "ModuleScript", {"Utils"}},
+                {4, "ModuleScript", {"AcrylicPaint"}}
+            }
+        },
+        {
+            7,
+            "Folder",
+            {"Components"},
             {
-                7,
-                "Folder",
-                {"Components"},
-                {
-                    {9, "ModuleScript", {"Button"}},
-                    {12, "ModuleScript", {"Notification"}},
-                    {13, "ModuleScript", {"Section"}},
-                    {17, "ModuleScript", {"Window"}},
-                    {14, "ModuleScript", {"Tab"}},
-                    {10, "ModuleScript", {"Dialog"}},
-                    {8, "ModuleScript", {"Assets"}},
-                    {16, "ModuleScript", {"TitleBar"}},
-                    {15, "ModuleScript", {"Textbox"}},
-                    {11, "ModuleScript", {"Element"}}
-                }
+                {9, "ModuleScript", {"Button"}},
+                {12, "ModuleScript", {"Notification"}},
+                {13, "ModuleScript", {"Section"}},
+                {17, "ModuleScript", {"Window"}},
+                {14, "ModuleScript", {"Tab"}},
+                {10, "ModuleScript", {"Dialog"}},
+                {8, "ModuleScript", {"Assets"}},
+                {16, "ModuleScript", {"TitleBar"}},
+                {15, "ModuleScript", {"Textbox"}},
+                {11, "ModuleScript", {"Element"}}
             }
         }
     }
+}
 }
 local aa = {
     function()
@@ -5051,14 +5053,14 @@ local aa = {
     end,
     [47] = function()
         local aa, ab, ac, ad, ae = b(47)
-        local af = {Names = {"Reaper Hub", "Halloween"}}
+        local af = {Names = {"Reaper Hub", "Light Halloween", "Dark Halloween"}}
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah)
             af[aj.Name] = aj
         end
         return af
     end,
-    [50] = function()
+    [48] = function()
         local aa, ab, ac, ad, ae = b(50)
         return {
             Name = "Reaper Hub",
@@ -5098,12 +5100,52 @@ local aa = {
             HoverChange = 0.08,
         }
     end,
-    [52] = function()
+    [49] = function()
         local aa, ab, ac, ad, ae = b(52)
         return {
-            Name = "Halloween",
+            Name = "Light Halloween",
             Accent = Color3.fromRGB(247, 95, 28),
             AcrylicMain = Color3.fromRGB(200, 200, 200),
+            AcrylicBorder = Color3.fromRGB(120, 120, 120),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 255, 255), Color3.fromRGB(255, 255, 255)),
+            AcrylicNoise = 0.96,
+            TitleBarLine = Color3.fromRGB(160, 160, 160),
+            Tab = Color3.fromRGB(247, 95, 28),
+            Element = Color3.fromRGB(247, 95, 28),
+            ElementBorder = Color3.fromRGB(180, 180, 180),
+            InElementBorder = Color3.fromRGB(150, 150, 150),
+            ElementTransparency = 0.3,
+            ToggleSlider = Color3.fromRGB(247, 95, 28),
+            ToggleToggled = Color3.fromRGB(255, 255, 255),
+            SliderRail = Color3.fromRGB(40, 40, 40),
+            DropdownFrame = Color3.fromRGB(200, 200, 200),
+            DropdownHolder = Color3.fromRGB(240, 240, 240),
+            DropdownBorder = Color3.fromRGB(247, 95, 28),
+            DropdownOption = Color3.fromRGB(247, 95, 28),
+            Keybind = Color3.fromRGB(247, 95, 28),
+            Input = Color3.fromRGB(200, 200, 200),
+            InputFocused = Color3.fromRGB(100, 100, 100),
+            InputIndicator = Color3.fromRGB(247, 95, 28),
+            Dialog = Color3.fromRGB(255, 255, 255),
+            DialogHolder = Color3.fromRGB(240, 240, 240),
+            DialogHolderLine = Color3.fromRGB(247, 95, 28),
+            DialogButton = Color3.fromRGB(255, 255, 255),
+            DialogButtonBorder = Color3.fromRGB(247, 95, 28),
+            DialogBorder = Color3.fromRGB(140, 140, 140),
+            DialogInput = Color3.fromRGB(250, 250, 250),
+            DialogInputLine = Color3.fromRGB(247, 95, 28),
+            Text = Color3.fromRGB(0, 0, 0),
+            SubText = Color3.fromRGB(40, 40, 40),
+            Hover = Color3.fromRGB(247, 95, 28),
+            HoverChange = 0.16
+        }
+    end,
+    [50] = function()
+        local aa, ab, ac, ad, ae = b(52)
+        return {
+            Name = "Dark Halloween",
+            Accent = Color3.fromRGB(247, 95, 28),
+            AcrylicMain = Color3.fromRGB(0, 0, 0),
             AcrylicBorder = Color3.fromRGB(120, 120, 120),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 255, 255), Color3.fromRGB(255, 255, 255)),
             AcrylicNoise = 0.96,
