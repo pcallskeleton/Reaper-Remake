@@ -397,7 +397,7 @@ local aa = {
                     j(
                         "Frame",
                         {
-                            BackgroundTransparency = 0.7,
+                            BackgroundTransparency = 0.1,
                             Size = UDim2.fromScale(1, 1),
                             Name = "Background",
                             ThemeTag = {BackgroundColor3 = "AcrylicMain"}
@@ -5224,7 +5224,7 @@ local aa = {
             Element = Color3.fromRGB(255, 255, 255),
             ElementBorder = Color3.fromRGB(180, 180, 180),
             InElementBorder = Color3.fromRGB(150, 150, 150),
-            ElementTransparency = 0.65,
+            ElementTransparency = 0.3,
             ToggleSlider = Color3.fromRGB(40, 40, 40),
             ToggleToggled = Color3.fromRGB(255, 255, 255),
             SliderRail = Color3.fromRGB(40, 40, 40),
