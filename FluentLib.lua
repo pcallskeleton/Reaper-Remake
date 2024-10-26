@@ -397,7 +397,7 @@ local aa = {
                     j(
                         "Frame",
                         {
-                            BackgroundTransparency = 0.45,
+                            BackgroundTransparency = 0.7,
                             Size = UDim2.fromScale(1, 1),
                             Name = "Background",
                             ThemeTag = {BackgroundColor3 = "AcrylicMain"}
